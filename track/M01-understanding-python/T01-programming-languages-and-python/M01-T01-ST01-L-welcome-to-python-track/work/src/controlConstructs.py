@@ -52,7 +52,7 @@ match day:
     case _ : print("invalid ")'''
 #match-case with multiple cases
 #Write a Python program that accepts a month number and uses match-case to print the season: 3,4,5 → Summer, 6,7,8 → Rainy, 9,10,11,12 → Winter, and 1,2 → Autumn.
-month = int(input("Enter the month number: "))
+'''month = int(input("Enter the month number: "))
 match month:
     case 3|4|5:
         print("Summer")
@@ -63,30 +63,60 @@ match month:
     case 1|2:
         print("Autumn")
     case _:
-        print("Invalid month")
+        print("Invalid month")'''
 #Looping Statements
 
 #for loop with range
 #Write a Python program to print numbers from 1 to 5 using a for loop.
+'''for i in range(1,6) :
+    print(i)'''
+
 #for loop – first 5 numbers
 #Write a Python program to print the first five numbers starting from 0 using a for loop.
+'''for i in range(5):
+    print(i)'''
+  
 #for loop with if condition
 #Write a Python program to print all even numbers from 1 to 10 using a for loop.
+'''for i in range(1,6):
+    if i % 2 ==0:
+        print(i)'''
 #while loop
 #Write a Python program to print numbers from 0 to 4 using a while loop.
+'''i = 0
+while i< 5:
+    print(i)'''
 #Jumping Statements
 
 #break statement
 #Write a Python program to print numbers from 1 to 5, but stop the loop when the number reaches 4.
+'''for i in range(1,6):
+    if i == 4:
+        break
+    print(i)'''
 #continue statement
 #Write a Python program to print numbers from 1 to 5, but skip the number 4 using continue.
+'''for i in range(1,6):
+    if i == 4:
+        continue 
+    print(i)'''
 #pass statement
 #Write a Python program using a for loop from 1 to 9 and use pass as a placeholder inside the loop.
+'''for i in range(1,10):
+    pass
+print("hi")'''
 #pass in function
 #Write a Python program to create a function called add() without implementing its logic. Use pass inside the function.
+'''def add():
+    pass
+add()
+print("done")'''
 #Return Statement
 
 #return statement
 #Write a Python function called square(n) that accepts a number and returns its square. Call the function with 3 and print the result.
-#Also give answers 
+'''def square(n):
+    return n * n
+print(square(3))'''
+#Also give answer for these
 
